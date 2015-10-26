@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <top>
+      <Label fx:id="lbl" text="" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER" styleClass="writings">
+         <BorderPane.margin>
+            <Insets bottom="10.0" left="30.0" right="30.0" top="20.0" />
+         </BorderPane.margin>
+      </Label>
+   </top>
+   <center>
+	  <GridPane alignment="CENTER" BorderPane.alignment="CENTER" fx:id="gridPane">
+         <children>
+			
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="10.0" left="30.0" right="30.0" top="10.0" />
+         </BorderPane.margin>
+         <columnConstraints>
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+         </rowConstraints>
+      </GridPane> 
+		   	
+   </center>
+   <bottom>
+      <Button mnemonicParsing="false" onAction="#newGameBtnClick" text="Новая игра" BorderPane.alignment="CENTER" styleClass="btn">
+         <BorderPane.margin>
+            <Insets bottom="20.0" left="30.0" right="30.0" top="10.0" />
+         </BorderPane.margin>
+      </Button>
+   </bottom>
+</BorderPane>

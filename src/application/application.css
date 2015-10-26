@@ -1,0 +1,27 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.root {
+	-fx-background-image: url("field-bg.png");
+	-fx-background-repeat: repeat;
+}
+
+.writings {
+	-fx-font-family: "Inform Cyr";
+	-fx-font-size: 30px;
+}
+
+.btn {
+    -fx-padding: 8 30 15 30;
+    -fx-background-insets: 0, 1 1 5 1;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        #555555,
+        #fffefb;
+    -fx-font-weight: bold;
+	-fx-font-size: 20px;
+}
+
+.btn:pressed {
+    -fx-padding: 10 30 13 30;
+    -fx-background-insets: 2 0 1 0, 3 1 4 1;
+}
